@@ -1,0 +1,77 @@
+.avengers{
+    width: 31%;
+    height: 100%;
+    float: left;
+    margin-right: 2.3%;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px #0000006e;
+}
+#wallpapers{
+    position: relative;
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.avengers > img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    box-shadow: 0px 10px 10px #0000006e;
+}
+.navdiv{
+    height: 100%;
+    display: inline-flex;
+    text-align: center;
+    margin-left: 220px;
+}
+.mav{
+    height: 95%;
+    display: inline-flex;
+    text-align: center;
+    margin-left: 220px;
+    border-bottom: 5px solid #ffffff;
+}
+.nav a {
+    color: #ffffff;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: none;
+    height: 50%;
+    padding: 2rem;
+}
+.text{
+    width: 90%;
+    height: 190px;
+    margin-left: 5%;
+    margin-top: 5%;
+    /* background-color: #943535; */
+}
+.title{
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+.sub{
+    width: 45%;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.search > input{
+    position: relative;
+    border: 0px;
+    width: 150px;
+    height: 25px;
+}
+.search{
+    border-bottom: 2px solid #686868;
+    width: 30%;
+}
